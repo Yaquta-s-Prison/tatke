@@ -1,0 +1,55 @@
+@import @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  padding: 0px;
+  background-color: #2c2f33;  
+}
+
+p {
+
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 12px;
+  color: #edcd55;
+}
+
+#text{
+    white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 20px;
+  color: #edcd55;
+}
+}
+
+/* Animation */
+.text0 {animation: animated-text 1s steps(29) 1s 1 normal both}
+#text1 {animation: animated-text 1s steps(29) 2s 1 normal both}
+#text2 {animation: animated-text 1s steps(29) 5s 1 normal both}
+#text3 {animation: animated-text 1s steps(29) 8s 1 normal both}
+#text4 {animation: animated-text 1s steps(29) 11s 1 normal both}
+#text5 {animation: animated-text 1s steps(29) 14s 1 normal both}
+#text6 {animation: animated-text 1s steps(29) 17s 1 normal both}
+#text7 {animation: animated-text 1s steps(29) 20s 1 normal both}
+#text8 {animation: animated-text 1s steps(29) 23s 1 normal both}
+#text9 {animation: animated-text 1s steps(29) 26s 1 normal both}
+#text10 {animation: animated-text 1s steps(29) 29s 1 normal both}
+#text11 {animation: animated-text 1s steps(29) 32s 1 normal both}
+#text12 {animation: animated-text 1s steps(29) 35s 1 normal both}
+#text13 {animation: animated-text 1s steps(29) 37s 1 normal both}
+#text14 {animation: animated-text 1s steps(29) 39s 1 normal both}
+#text15 {animation: animated-text 1s steps(29) 42s 1 normal both}
+#text16 {animation: animated-text 1s steps(29) 45s 1 normal both}
+#text17 {animation: animated-text 1s steps(29) 48s 1 normal both}
+#text18 {animation: animated-text 1s steps(29) 51s 1 normal both}
+#text19 {animation: animated-text 1s steps(29) 54s 1 normal both}
+#text20 {animation: animated-text 1s steps(29) 57s 1 normal both}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 50rem;}
+}
+
